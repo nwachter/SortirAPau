@@ -1,7 +1,7 @@
 		<?php $title = "Sortir A Pau - Administration"; ?>
 		<?php ob_start(); ?>
 
-		<?php include($_SERVER['DOCUMENT_ROOT'].'/header.php');//Si pb affichage, remettre dans div admin_container ?>		
+		<?php include($_SERVER['DOCUMENT_ROOT'].'/header.php'); ?>		
 		<div id="admin_container">			
 			<?php if(isset($message)): ?>
 			<div>
@@ -37,9 +37,9 @@
 							<input type="submit" name="submit_supprimer_util" id="submit_supprimer_util" value="Supprimer l'utilisateur">							
 						</form>		
 
-						<!-- Créer fonction supprimer Membre dans model, mettre code PHP décidant action (if) dans controller <div>
+						 <div>
 					        <a id="supprimer" href="administration.php?supprimerUser=true&sor_ref=<?= $users['util_id'] ?>">Supprimer</a>
-					    </div> -->
+					    </div> 
 						
 					</li>
 					
