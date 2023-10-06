@@ -8,7 +8,7 @@
 			<div>
 				<h2 class="h-manus">Suggestions</h2>
 				<?php foreach($suggestions as $suggestion):
-					//transformer foreach en for x<2 (index) pour afficher 2 lieux seulement OU faire lieuxSuggestion array
+					
 				 ?>
 				<article class="suggestion-gauche">	
 					<div class="h3-manus"><a href="lieux.php#<?= $suggestion['lieu_ref'] ?>">
